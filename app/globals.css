@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 33% 98%;
+    --foreground: 0 0% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+    --primary: 355 78% 40%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 40 30% 94%;
+    --secondary-foreground: 0 0% 10%;
+    --muted: 40 20% 95%;
+    --muted-foreground: 0 0% 38%;
+    --accent: 40 45% 52%;
+    --accent-foreground: 0 0% 10%;
+    --destructive: 3 72% 42%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 40 15% 85%;
+    --input: 40 15% 85%;
+    --ring: 355 78% 40%;
+    --radius: 0.375rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans), system-ui, sans-serif;
+    line-height: 1.5;
+  }
+
+  html:lang(or) body {
+    font-family: var(--font-odia), var(--font-sans), system-ui, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-serif), Georgia, serif;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+  }
+
+  html:lang(or) h1,
+  html:lang(or) h2,
+  html:lang(or) h3,
+  html:lang(or) h4 {
+    font-family: var(--font-odia), var(--font-sans), system-ui, sans-serif;
+    letter-spacing: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* In Odia, every "serif" heading/body style falls back to the Odia face so letters never break. */
+html:lang(or) .font-serif {
+  font-family: var(--font-odia), var(--font-sans), system-ui, sans-serif;
+  font-style: normal;
+}
+
+html:lang(or) body {
+  line-height: 1.8;
+}
