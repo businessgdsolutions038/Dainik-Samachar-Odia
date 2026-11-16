@@ -1,4 +1,4 @@
-# Dainik Samachar Odia: corporate website
+# Dainika Samachar Odia: corporate website
 
 English at `/en`, Odia at `/or`. Seven pages: Home, About Us, Our Publication, Our Reach, Advertise With Us, Contact Us, Privacy Policy.
 

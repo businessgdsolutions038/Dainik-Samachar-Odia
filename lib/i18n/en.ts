@@ -1,6 +1,6 @@
 export const en = {
   brand: {
-    name: 'Dainik Samachar Odia',
+    name: 'Dainika Samachar Odia',
     nameOdia: 'ଦୈନିକ ସମାଚାର ଓଡ଼ିଆ',
     tagline: 'Your Voice. Your Community. Your Newspaper.',
     descriptor: 'An Odia daily newspaper for Odisha',
@@ -24,7 +24,7 @@ export const en = {
     switchLanguage: 'ଓଡ଼ିଆ',
     switchLanguageLabel: 'Switch to Odia',
     launchStatus: 'Not yet launched',
-    launchStatusLong: 'Dainik Samachar Odia has not yet launched. Our team is preparing the first edition.',
+    launchStatusLong: 'Dainika Samachar Odia has not yet launched. Our team is preparing the first edition.',
     frequencyLabel: 'Publication frequency',
     toBeConfirmed: 'To be confirmed',
     placeholderNote: 'Placeholder: to be confirmed',
@@ -35,13 +35,13 @@ export const en = {
     footerFollow: 'Follow us',
     footerNotice: 'This website is a corporate information site. Our first edition has not yet been published.',
     rights: 'All rights reserved.',
-    copyright: 'Dainik Samachar Odia',
+    copyright: 'Dainika Samachar Odia',
   },
   home: {
     hero: {
       eyebrow: 'A new voice for Odisha',
       title: 'Journalism rooted in our language and our land.',
-      body: 'Dainik Samachar Odia is preparing to launch as a credible, community-first Odia daily. We are building a newspaper that reports with integrity and speaks for the people of Odisha.',
+      body: 'Dainika Samachar Odia is preparing to launch as a credible, community-first Odia daily. We are building a newspaper that reports with integrity and speaks for the people of Odisha.',
       primaryCta: 'About Us',
       secondaryCta: 'Advertise With Us',
       imageAlt: 'Close view of printed newspaper pages',
@@ -51,7 +51,7 @@ export const en = {
     about: {
       eyebrow: 'About the publication',
       title: 'A newspaper built for every household in Odisha.',
-      body: 'Dainik Samachar Odia is a planned daily newspaper written in Odia for readers across the state. Our aim is to give Odia-speaking families a trusted, well-edited source of news, information and conversation about the issues that shape their lives.',
+      body: 'Dainika Samachar Odia is a planned daily newspaper written in Odia for readers across the state. Our aim is to give Odia-speaking families a trusted, well-edited source of news, information and conversation about the issues that shape their lives.',
       secondary: 'We are a new publication. Our first edition, editorial team and distribution plans are being finalised, and we will share them here as they are confirmed.',
     },
     visionMission: {
@@ -65,7 +65,7 @@ export const en = {
     masthead: {
       eyebrow: 'Publication identity',
       title: 'Our masthead',
-      body: 'The masthead is the face of the newspaper. Dainik Samachar Odia is set in the Odia script to honour the language of our readers, and will appear on every edition we publish.',
+      body: 'The masthead is the face of the newspaper. Dainika Samachar Odia is set in the Odia script to honour the language of our readers, and will appear on every edition we publish.',
       nameplateCaption: 'Primary nameplate in Odia',
       secondaryCaption: 'English name',
     },
@@ -112,7 +112,7 @@ export const en = {
   about: {
     eyebrow: 'About Us',
     title: 'Our purpose, vision and values.',
-    intro: 'Dainik Samachar Odia exists to inform, connect and serve the Odia-speaking public. This page explains what we stand for and how we intend to work.',
+    intro: 'Dainika Samachar Odia exists to inform, connect and serve the Odia-speaking public. This page explains what we stand for and how we intend to work.',
     purposeTitle: 'Our purpose',
     purposeBody: 'To give Odisha a newspaper that puts its language, its communities and its people at the centre of journalism, and that readers can rely on each day.',
     visionTitle: 'Our vision',
@@ -127,12 +127,12 @@ export const en = {
   publication: {
     eyebrow: 'Our Publication',
     title: 'Our masthead and publication identity.',
-    intro: 'The masthead is the signature of a newspaper. Here is how Dainik Samachar Odia will present itself to readers, advertisers and partners.',
+    intro: 'The masthead is the signature of a newspaper. Here is how Dainika Samachar Odia will present itself to readers, advertisers and partners.',
     statusTitle: 'Launch status',
-    statusBody: 'Dainik Samachar Odia has not yet launched. Dates, editions and editorial team details will be announced once they are confirmed.',
+    statusBody: 'Dainika Samachar Odia has not yet launched. Dates, editions and editorial team details will be announced once they are confirmed.',
     detailsTitle: 'Publication details',
     details: [
-      { label: 'Publication name', value: 'Dainik Samachar Odia' },
+      { label: 'Publication name', value: 'Dainika Samachar Odia' },
       { label: 'Language', value: 'Odia (ଓଡ଼ିଆ)' },
       { label: 'Format', value: 'To be confirmed' },
       { label: 'Frequency', value: 'To be confirmed' },
@@ -154,7 +154,7 @@ export const en = {
     title: 'Coverage and readership, confirmed as we grow.',
     intro: 'This page will show our verified coverage areas and readership information. Until those details are confirmed, we are sharing placeholders rather than estimates.',
     cards: [
-      { title: 'Coverage areas', body: 'Districts and cities where Dainik Samachar Odia will report and distribute.' },
+      { title: 'Coverage areas', body: 'Districts and cities where Dainika Samachar Odia will report and distribute.' },
       { title: 'Distribution points', body: 'Print distribution and availability across the state.' },
       { title: 'Intended readership', body: 'The Odia-speaking households, professionals and communities we intend to serve.' },
       { title: 'Digital presence', body: 'Online reach, once our digital channels are confirmed.' },
@@ -167,7 +167,7 @@ export const en = {
   advertise: {
     eyebrow: 'Advertise With Us',
     title: 'Connect your brand with Odia readers.',
-    intro: 'Dainik Samachar Odia offers a considered way for businesses, institutions and public-facing organisations to reach readers who value their language and their community.',
+    intro: 'Dainika Samachar Odia offers a considered way for businesses, institutions and public-facing organisations to reach readers who value their language and their community.',
     opportunitiesTitle: 'Advertising opportunities',
     opportunities: [
       { title: 'Display advertising', body: 'Print and digital display placements designed to be seen and remembered by readers.' },
@@ -276,14 +276,14 @@ export const en = {
     socialNote: 'Social media links to be confirmed.',
   },
   seo: {
-    homeTitle: 'Dainik Samachar Odia | Your Voice. Your Community. Your Newspaper.',
-    homeDescription: 'Dainik Samachar Odia is a new Odia daily newspaper for Odisha, preparing to launch with a commitment to credible, community-first journalism.',
-    aboutDescription: 'Learn about the purpose, vision, mission and values of Dainik Samachar Odia, a new Odia newspaper for Odisha.',
-    publicationDescription: 'Discover the masthead, identity and editorial principles of Dainik Samachar Odia.',
-    reachDescription: 'Coverage and readership information for Dainik Samachar Odia will be published once verified.',
-    advertiseDescription: 'Advertise with Dainik Samachar Odia. Display advertising, business promotions and corporate partnerships for Odia readers.',
-    contactDescription: 'Contact Dainik Samachar Odia with your enquiry, story or partnership idea.',
-    privacyDescription: 'How Dainik Samachar Odia collects, uses and protects personal information submitted through this website.',
+    homeTitle: 'Dainika Samachar Odia | Your Voice. Your Community. Your Newspaper.',
+    homeDescription: 'Dainika Samachar Odia is a new Odia daily newspaper for Odisha, preparing to launch with a commitment to credible, community-first journalism.',
+    aboutDescription: 'Learn about the purpose, vision, mission and values of Dainika Samachar Odia, a new Odia newspaper for Odisha.',
+    publicationDescription: 'Discover the masthead, identity and editorial principles of Dainika Samachar Odia.',
+    reachDescription: 'Coverage and readership information for Dainika Samachar Odia will be published once verified.',
+    advertiseDescription: 'Advertise with Dainika Samachar Odia. Display advertising, business promotions and corporate partnerships for Odia readers.',
+    contactDescription: 'Contact Dainika Samachar Odia with your enquiry, story or partnership idea.',
+    privacyDescription: 'How Dainika Samachar Odia collects, uses and protects personal information submitted through this website.',
   },
 };
 

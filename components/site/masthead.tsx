@@ -43,7 +43,7 @@ export function Masthead({
         <div className="mt-3 border-t-[3px] border-ink-900" />
         <div className="mt-[3px] border-t border-ink-900" />
         <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-1 py-2 text-sm">
-          <span className="font-serif text-lg font-semibold italic">{'Dainik Samachar Odia'}</span>
+          <span className="font-serif text-lg font-semibold italic">{'Dainika Samachar Odia'}</span>
           <span className="text-ink-700">{dict.brand.descriptor}</span>
         </div>
         <div className="border-t border-ink-900" />
